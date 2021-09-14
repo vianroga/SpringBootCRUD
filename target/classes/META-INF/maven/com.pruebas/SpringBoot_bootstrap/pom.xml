@@ -9,9 +9,11 @@
 		<version>2.5.4</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>com.pruebas</groupId>
 	<artifactId>SpringBoot_bootstrap</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>SpringHelloMundo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>

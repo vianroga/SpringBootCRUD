@@ -43,6 +43,12 @@ public class ControladorInicio {
 		var personas = personaService.ListarPersonas();
 		log.info("Usuario que realizo login: "+user);
 		model.addAttribute("Personas", personas);
+		var saldoTotal = 0D;
+		for (var p : personas) {
+			saldoTotal+=p.getSaldo();
+		}
+		model.addAttribute("saldoTotal", saldoTotal);
+		model.addAttribute("totalClientes", personas.size());
 		return "index";
 	}
 	@GetMapping("/agregar")
