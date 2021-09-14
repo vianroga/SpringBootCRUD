@@ -1,2 +1,2 @@
 # SpringBootCRUD
-Repositorio con la app Java con el framework SpringBoot
+Repositorio con app Java y framework Spring SpringBoot
